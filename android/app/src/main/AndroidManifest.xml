@@ -1,9 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.map_countries">
    <application
-        android:label="map_countries"
+        android:label="Map Countries"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAgr1Jf1HDcGgW6-7gGfjes7h2SFwrwHsI"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
